@@ -1,0 +1,43 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0px;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  color: rgba(0, 0, 0, 0.92);
+
+  background-color: #fafdfd;
+  background-image: url('assets/img/background.png');
+  background-repeat: repeat;
+  min-width: 400px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+// Alert SnackBar
+.alertSuccess .mat-simple-snackbar {
+  color: #adff2f;
+}
+.alertInfo .mat-simple-snackbar {
+  color: #afeeee;
+}
+.alertWarning .mat-simple-snackbar {
+  color: #ffa500;
+}
+.alertDanger .mat-simple-snackbar {
+  color: #f44336;
+}
