@@ -1,13 +1,13 @@
 {
   "/postit-server": {
-    "target": "http://localhost:8080/",
+    "target": "https://thrumsupmycommunity-package.onrender.com/",
     "changeOrigin": true,
     "pathRewrite": {
       "^/postit-server": ""
     }
   },
   "/postit-server/websocket": {
-    "target": "ws://localhost:8080/websocket",
+    "target": "ws://thrumsupmycommunity-package.onrender.com/websocket",
     "ws": true,
     "changeOrigin": true,
     "pathRewrite": {
