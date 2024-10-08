@@ -1,8 +1,8 @@
 VERSION=$(shell sed "s/.*\"version\": \"\(.*\)\".*/\1/;t;d" package.json)
 NEXUS_USER=deployment
-DOCKER_URL=docker.uicode.dev
-NEXUS_RAW_PUSH_URL=https://nexus.uicode.dev/service/rest/v1/components?repository=raw
-NEXUS_RAW_GET_URL=https://nexus.uicode.dev/repository/raw/
+DOCKER_URL=docker.goodneighbor.org
+NEXUS_RAW_PUSH_URL=https://nexus.goodneighbor.org/service/rest/v1/components?repository=raw
+NEXUS_RAW_GET_URL=https://nexus.goodneighbor.org/repository/raw/
 
 RAW_GROUP_ID=demo/postit-client
 RAW_ARTIFACT_ID=postit-client
